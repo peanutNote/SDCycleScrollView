@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name         = "SDCycleScrollView"
+s.name         = "SDCycleScrollView_Forbh"
 s.version      = "1.82"
 s.summary      = "简单易用的图片无限轮播器. 1.82版本更新内容：修复iOS14上系统自带pagecontrol显示不出来bug"
 
@@ -23,6 +23,6 @@ s.source_files  = "SDCycleScrollView/Lib/SDCycleScrollView/**/*.{h,m}"
 s.requires_arc = true
 
 
-s.dependency 'SDWebImage', '>= 5.0.0'
+s.dependency 'KZWebImage'
 
 end
